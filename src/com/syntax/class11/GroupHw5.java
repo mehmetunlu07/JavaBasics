@@ -7,7 +7,7 @@ public class GroupHw5 {
 
 		System.out.println("---------------To reverse a string-----------------");
 
-		String item = "Hello World of Java teach a lot to us";
+		String item = "I love java";
 		for (int i = item.length() - 1; i >= 0; i--) {
 			System.out.print(item.charAt(i));
 		}

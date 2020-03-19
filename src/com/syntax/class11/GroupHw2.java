@@ -7,7 +7,7 @@ public class GroupHw2 {
 	public static void main(String[] args) {
 //		2.Write a java program to check whether a given number is prime or not?
 //		Prime numbers are only divisible by 1 and itself. Prime numbers are greater than 1.
-		//Prime numbers: 2,3,5,7,11,13,17,19,23,29...
+		// Prime numbers: 2,3,5,7,11,13,17,19,23,29...
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number for prime test?");
@@ -23,15 +23,12 @@ public class GroupHw2 {
 					break;
 				}
 			}
-		
+
 		} else {
-			System.out.println("Enter a number > 0 ");
+			System.out.println("Enter a number > 1 ");
 		}
-		if (isPrime) {
-			System.out.println(num + " is a prime number");
-		} else {
-			System.out.println(num + " is a NOT a prime number");
-		}
+
+		System.out.println(num + " is a prime number? " + isPrime);
 
 	}
 
