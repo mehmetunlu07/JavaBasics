@@ -23,6 +23,17 @@ public class GroupHw1 {
 		System.out.println("x="+x);
 		System.out.println("y="+y);
 		
+		System.out.println("------another way---------------");
+				String s1="Hello";
+				String s2="Bye";
+
+				String str = s1+s2;   //HelloBye
+				s1 = str.replace(s1, "");
+				s2 = str.replace(s2, "");
+
+				System.out.println("The value of s1 = "+s1);
+				System.out.println("The value of s2 = "+s2);
+		
 	}
 
 }
