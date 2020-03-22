@@ -1,9 +1,9 @@
 package com.syntax.class12;
 
-public class TaskType {
+public class TasksType {
 
 	public static void main(String[] args) {
-		Task obj = new Task();
+		Tasks obj = new Tasks();
 		
 		int maxNum=obj.max(30, 50);
 		System.out.println(maxNum);
