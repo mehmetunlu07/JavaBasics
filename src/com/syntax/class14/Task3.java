@@ -5,15 +5,22 @@ public class Task3 {
 //Method should be available inside the class where it was declared and executed by calling it is name
 	
 	private static String method(String str) {
-		String s="";
-		s=str.replaceAll("[^A-Za-z]", "");
+		char c=0;
+		String str1="";
+		str=str.replaceAll("[^A-Za-z]", "");
+		for(int i=0;i<str.length();i++) {
+			c=str.charAt(i);
+			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U') {
+			  str1+=c; 	
+			}
+		}
 		
-		return s;
+		return str1;
 	}
 
 	public static void main(String[] args) {
 		String s="12345*+-/Syntax Tech";
-		System.out.println(method(s));
+		System.out.println("The vowels in the string: "+method(s));
 		
 
 	}
