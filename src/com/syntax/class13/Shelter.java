@@ -10,5 +10,6 @@ public static void main(String[] args) {
 		
 		//access static variables of different class
 		System.out.println(Dog.breed);
+		System.out.println(puppy.breed);
 	}
 }

@@ -2,7 +2,7 @@ package com.syntax.class13;
 
 public class Dog {
 	//instance variables
-		String name, size;
+		String name, size;   // color is blue
 		int age;
 		
 		//static variables
@@ -30,6 +30,7 @@ public class Dog {
 			System.out.println(Dog.breed);
 			System.out.println(Dog.paws);
 			System.out.println(dog1.breed);// access static variable in static way
+			dog1.breed="Black";
 			System.out.println(breed);
 			
 			//changing value of static variable

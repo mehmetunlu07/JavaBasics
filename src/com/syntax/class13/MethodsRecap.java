@@ -26,7 +26,7 @@ public class MethodsRecap {
 			
 			MethodsRecap obj=new MethodsRecap();
 			
-			int[] arr= {10,20,38,12};
+			int[] arr= {10,20,38,12,122,1,200};
 			System.out.println(obj.getLargestNumber(arr));
 			
 			String myString="It is a beatiful world";
