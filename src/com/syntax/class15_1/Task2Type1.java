@@ -2,7 +2,7 @@ package com.syntax.class15_1;
 
 import com.syntax.class15.Task2;
 
-public class task2Type1 {
+public class Task2Type1 {
 
 	public static void main(String[] args) {
 		Task2 obj1=new Task2();
