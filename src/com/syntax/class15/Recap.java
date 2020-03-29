@@ -3,37 +3,37 @@ package com.syntax.class15;
 public class Recap {
 
 	protected int sumFromArray(int[] array) {
-		int total = 0;
+		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
-			total += array[i];
+			sum += array[i];
 		}
-		return total;
+		return sum;
 	}
 	
 	public static String getReverse(String str) {
 		String reverse="";
 		for ( int i=str.length()-1; i>=0; i--) {
-			reverse+=str.charAt(i);
+			reverse+=str.charAt(i);  // olleH
 		}
 		return reverse;
 	}
 	
 	private static String getVowels(String str) {
 		String vowels;
-		vowels = str.replaceAll("[^aeiouAEIOU]","");
+		vowels = str.replaceAll("[^aeiouAEIOU]","");   //eoa
 		return vowels;
 	}
 	
 	public static void main(String[] args) {
 		Recap obj = new Recap();
 		int[] array = { 2, 7, 19, 857 };
-		System.out.println("total: " + obj.sumFromArray(array));
+		System.out.println("sum: " + obj.sumFromArray(array));
 		
 		String str=Recap.getReverse("Hello");
 		System.out.println(str);
 		System.out.println(getReverse("Good"));
 		
-		String vowels=getVowels("Hello");
+		String vowels=getVowels("Hello Syntax");
 		System.out.println(vowels);
 	}
 }

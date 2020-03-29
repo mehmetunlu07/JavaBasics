@@ -17,15 +17,15 @@ public class Students {
 	void average() {
 		int average;
 		average=(grade1+grade2+grade3)/3;
-		System.out.println("Name is: "+name+" Average grade is: "+average);
+		System.out.println("Name is:"+name+"   Average grade is: "+average);
 	}
 
 	public static void main(String[] args) {
 		Students obj1=new Students("Emma", 60,70,80);
-		Students obj2=new Students("Ferhat", 50,70,60);
+		Students obj2=new Students("Nola", 50,70,60);
 		Students obj3=new Students("Yunus", 40,70,90);
 		Students obj4=new Students("Yakup", 90,70,60);
-		Students obj5=new Students("Levent", 80,70,50);
+		Students obj5=new Students("Levi", 80,70,50);
 		obj1.average();
 		obj2.average();
 		obj3.average();

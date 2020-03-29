@@ -37,7 +37,8 @@ public class Task2 {
 		System.out.println(obj1.name+" "+ obj1.number);
 		Task2 obj2=new Task2(5);
 		Task2 obj3=new Task2("Haydar");
-		Task2 obj4=new Task2("bahadir", 13);
+		Task2 obj4=new Task2("Bahadir", 13);
+		System.out.println(obj4.name+" "+obj4.number);
 
 	}
 

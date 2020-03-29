@@ -11,7 +11,7 @@ public class Task1 {
 	}
 
 	Task1() {
-		System.out.println("non argument constructor");
+		System.out.println("non-argument constructor");
 	}
 
 }
