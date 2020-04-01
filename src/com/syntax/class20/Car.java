@@ -24,7 +24,7 @@ class Mercedes extends Car{
 	}
 	
 	public Mercedes(String make, String model,String sportModel) {
-		//super(make, model);
+		super(make,model);
 		this.sportModel=sportModel;
 	}
 	

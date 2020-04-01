@@ -12,9 +12,15 @@ public class Doctor {
 }
 
 class Dentist extends Doctor {
-	
-	Dentist(String name, int doctorId) {
+	int dentNum;
+
+	Dentist(String name, int doctorId, int dentNum) {
 		// compiler will try to make call to parent class constructor super();
 		super(name, doctorId);
+		this.dentNum = dentNum;
+	}
+
+	void display() {
+		System.out.println(name + " " + doctorId + " " + dentNum);
 	}
 }

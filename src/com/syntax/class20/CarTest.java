@@ -5,17 +5,17 @@ public class CarTest {
 
 		//Car car=new Car();
 		
-		System.out.println("---------------------");
+		System.out.println("--------1-------------");
 		
 		Mercedes merc=new Mercedes();
 		merc.display();
 		
-		System.out.println("---------------------");
+		System.out.println("---------2------------");
 		
 		Mercedes merc1=new Mercedes("Mercedes", "M","NO AMG");
 		merc1.display();
 		
-		System.out.println("---------------------");
+		System.out.println("--------3-------------");
 		
 		Mercedes merc2=new Mercedes("Mercedes", "S","AMG");
 		merc2.display();
