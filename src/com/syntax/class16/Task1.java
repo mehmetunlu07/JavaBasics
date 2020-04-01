@@ -16,7 +16,7 @@ class B extends A{
 class C extends B{
 	String c="Class C";
 }
-public class Task {
+public class Task1 {
 
 	public static void main(String[] args) {
 	  C obj1=new C();
