@@ -1,5 +1,7 @@
 package com.syntax.class16;
 
+import java.text.DecimalFormat;
+
 public class ShoppingStore {
 	String item;
 	double price;
@@ -12,8 +14,10 @@ public class ShoppingStore {
 	}
 
 	double itemTotalPrice(){
-		double totalPrice=this.price*this.quantity;
-	    System.out.println(this.item+" Total Value "+totalPrice);
+		double totalPrice=price*quantity;
+		DecimalFormat obj=new DecimalFormat("#.##");
+		String total=obj.format(totalPrice);
+		System.out.println(item+" Total Value "+total);
 	    return totalPrice;
 	    
 	  }
