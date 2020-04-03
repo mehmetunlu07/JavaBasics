@@ -7,7 +7,7 @@ public class Hw1Test {
 		System.out.println("Area of square (a*a)= "+obj.areaSquare());
 		System.out.println("Area of rectangle (a*b)= "+obj.areaRectangle());
 		System.out.println("Area of box (a*b*height)= "+obj.areaBox());
-
+		
 	}
 
 }
