@@ -1,6 +1,6 @@
 package com.syntax.class21;
 
-public class Hw1Test {
+class Hw1Test {
 
 	public static void main(String[] args) {
 		Hw1 obj=new Hw1(4,2,10);

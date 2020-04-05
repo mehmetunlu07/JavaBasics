@@ -7,6 +7,7 @@ package com.syntax.class16;
 public class Repl133 {
 	public static String alphabetical(String str) {
 		String s = "" + str.charAt(0);
+		
 		for (int i = 1; i < str.length(); i++) {
 			if (str.charAt(i) > str.charAt(i - 1)) {
 				s += str.charAt(i);
