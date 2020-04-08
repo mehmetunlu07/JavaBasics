@@ -1,6 +1,6 @@
 package com.syntax.class23;
 
-public class FinalExamples {
+public  class FinalExamples {
 
 	final String str="I love java";
 	
@@ -11,7 +11,7 @@ public class FinalExamples {
 	public static void main(String[] args) {
 		
 		FinalExamples obj=new FinalExamples();
-		//obj.str="I do not like java";CE: final variables cannot be modified
+		//obj.str="I do not like java";  //CE: final variables cannot be modified
 	}
 }
 

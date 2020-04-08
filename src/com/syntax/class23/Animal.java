@@ -21,11 +21,11 @@ class Bird extends Animal{
 	public static void whoAmI() {
 		System.out.println("I am a bird");
 	}
-	
+	@Override
 	public void sleep() {
 		System.out.println("Bird sleeps");
 	}
-	
+	// private methods not visible in inheritance
 	private void eat() {
 		System.out.println("Birds eat too");
 	}

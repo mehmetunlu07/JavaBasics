@@ -7,16 +7,18 @@ public class CarTest {
 		Car bmw = new BMW("BMW");
 		bmw.display();
 		bmw.start();
-		//bmw.navigate();CE: undefined method in Car
+		//bmw.navigate(); //CE: undefined method in Car
 		Car tesla = new Tesla("Tesla");
 		Car merc = new Mercedes("Mercedes");
 		Car honda = new Honda("Honda");
 
-		Car[] cars = { new BMW("BMW"), new Tesla("Tesla"), new Mercedes("Mercedes"), new Honda("Honda") };
+		Car[] cars = { new BMW("BMW"), new Tesla("Tesla"),new Mercedes("Mercedes"), new Honda("Honda") };
 		
-		for(Car c:cars) {
-			c.start();
-			c.display();
+		//Car[] cars= {bmw,tesla,merc,honda};  // 2.yontem
+		
+		for(Car i:cars) {
+			i.start();
+			i.display();
 			System.out.println(" ------------   ");
 		}
 		

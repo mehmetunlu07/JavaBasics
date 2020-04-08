@@ -21,7 +21,7 @@ class BMW extends Car {
 	public BMW(String make) {
 		super(make);
 	}
-	
+	@Override
 	public void start() {
 		System.out.println(make +" starts by pushing button");
 	}
@@ -35,7 +35,7 @@ class Mercedes extends Car{
 	public Mercedes(String make) {
 		super(make);
 	}
-	
+	@Override
 	public void start() {
 		System.out.println(make+" starts remotely");
 	}
@@ -50,7 +50,7 @@ class Tesla extends Car{
 	public Tesla(String make) {
 		super(make);
 	}
-	
+	@Override
 	public void start() {
 		System.out.println(make+" starts by voice command");
 	}

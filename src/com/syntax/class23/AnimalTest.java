@@ -5,11 +5,12 @@ public class AnimalTest {
 	public static void main(String[] args) {
 		
 		Animal animal=new Bird();
-		animal.sleep();
+		animal.sleep();  //run time overriding
 		animal.whoAmI();
 		
 		Animal.whoAmI();
 		Bird.whoAmI();
+		
 		
 	}
 }

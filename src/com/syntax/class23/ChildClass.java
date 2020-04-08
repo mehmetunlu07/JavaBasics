@@ -6,4 +6,5 @@ public class ChildClass extends FinalExamples{
 //	void saySmth(String str) {
 //		System.out.println("----");
 //	}
+
 }

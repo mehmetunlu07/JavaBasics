@@ -12,9 +12,10 @@ public class FinalKeyword {
 	public static void main(String[] args) {
 		
 		str="Hi";
+		
 	
 		//str1="Good bye"; CE:
-		//applicationURl="http://google.com"
+		//APPLICATION_URL="http://google.com";  //CE
 	}
 	
 	public final void hello() {
