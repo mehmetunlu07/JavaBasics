@@ -1,5 +1,9 @@
 package com.syntax.class24;
 
+
+//Create a class Bus, which will be concrete child class of the vehicle class.
+//Create a SchoolBus class that will be a subclass of the Bus and override method drive() and stop().
+//Create an array of vehicles and see which methods will be available and see the output of the program
 public abstract class Vehicle {
 
 	static int totalVehicles;
@@ -25,6 +29,37 @@ public abstract class Vehicle {
 	public abstract void start();
 	
 	public abstract void brake();
+}
+class Bus extends Vehicle{
+	Bus(String color){
+		super(color);
+	}
+	@Override
+	public void start() {
+		System.out.println("Bus has start");
+		
+	}
+
+	@Override
+	public void brake() {
+		System.out.println("Bus has brakes");
+		
+	}
+	
+}
+class SchoolBus extends Bus{
+
+	SchoolBus(String color) {
+		super(color);
+	}
+	public void drive() {
+		System.out.println("SchoolBus drives");
+	}
+	
+	public void stop() {
+		System.out.println("SchoolBus stops ");
+	}
+	
 }
 abstract class Car extends Vehicle{
 	String carType;
@@ -73,7 +108,7 @@ class Toyota extends Car{
 
 	@Override
 	public void start() {
-		System.out.println(make+ "starts keyless");
+		System.out.println(make+ " starts keyless");
 	}	
 }
 

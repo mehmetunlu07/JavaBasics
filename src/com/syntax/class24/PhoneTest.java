@@ -4,7 +4,7 @@ public class PhoneTest {
 
 	public static void main(String[] args) {
 		
-		//new Phone();CE: cannot instantiate/create an object of Phone class because it is ABSTRACT
+		//new Phone();  //CE: cannot instantiate/create an object of Phone class because it is ABSTRACT
 		
 		Phone iphone=new iPhone();
 		iphone.call();

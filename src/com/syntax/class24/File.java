@@ -4,7 +4,7 @@ package com.syntax.class24;
 //while open is an abstract. Create 3 subclasses: JavaFile, WordFile, PDFFile that will provide specific implementation of open behaviour: 
 //Example: to open .java file we need notepad++ or sublime text, to open .doc file we need Microsoft word to be installed etc
 
-public abstract class File {
+public  abstract class File {
 
 	public abstract void open();
 
@@ -19,19 +19,20 @@ public abstract class File {
 }
 
 class JavaFile extends File{
+	@Override
 	public void open() {
-		System.out.println("JavaFile class method open");
+		System.out.println("JavaFile class method open");	
 	}
 }
-
 class WordFile extends File{
+	@Override
 	public void open() {
 		System.out.println("WordFile class method open");
 	}
 }
-
 class PDFFile extends File{
+	@Override
 	public void open() {
-		System.out.println("PDFFile class method open");
+		System.out.println("PDFFile class method open");		
 	}
 }

@@ -7,16 +7,26 @@ public class VehicleTest {
 		//new Vehicle("yellow");
 		//new Car("sedan", "yellow");
 		
-		Vehicle tesla=new Tesla("yellow", "sedan", "tesla");
-		tesla.drive();
-		tesla.stop();
-		tesla.brake();
-		tesla.start();
-		//tesla.display();CE: method is not defined in Vehicle
-		
-		new Toyota("red", "sedan", "toyota");
-		new Toyota("blue", "sedan", "toyota");
-		Toyota.total();
+//		Vehicle tesla=new Tesla("yellow", "sedan", "tesla");
+//		tesla.drive();
+//		tesla.stop();
+//		tesla.brake();
+//		tesla.start();
+//		//tesla.display();  //CE: method is not defined in Vehicle
+//		
+//		new Toyota("red", "sedan", "toyota");
+//		new Toyota("blue", "sedan", "toyota");
+//		Toyota.total();
+		//System.out.println("------------------------------------");
+		Vehicle[] vehicle= {new Tesla("yellow", "sedan", "tesla"),new Toyota("red", "sedan", "toyota"), new SchoolBus("pink")};
+		for(Vehicle i:vehicle) {
+			i.drive();
+			i.stop();
+			i.start();
+			i.brake();
+			i.total();
+			System.out.println("-----------------------");
+		}
 	
 	}
 }

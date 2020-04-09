@@ -40,7 +40,7 @@ class Samsung extends Phone{
 
 	@Override
 	public void playMusic() {
-		System.out.println("Sansung plays music using google store");
+		System.out.println("Samsung plays music using google store");
 	}
 	
 }
