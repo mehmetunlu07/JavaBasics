@@ -8,6 +8,7 @@ public class DrivableTest {
 		//Drivable.MOVE_FAST=false;
 		obj.drive();
 		
+		System.out.println();
 		Cars car=new Cars();
 		car.drive();
 		car.stop();

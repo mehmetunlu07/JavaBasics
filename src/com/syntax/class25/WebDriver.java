@@ -2,17 +2,17 @@ package com.syntax.class25;
 
 interface TakesScreenshot{
 	
-	String fileExtension=".png";
+	String A=".png";   //public static final by default
 	
 	void takePicture();
 	
 	//features below were added from Java 1.8 version
-	static void takeSelfie() {
+	public static void takeSelfie() {
 		System.out.println("I can take a selfie");
 	}
 	
 	default void takePanoramaPic() {
-		System.out.println("I can take panoramic pistures");
+		System.out.println("I can take panoramic pictures");
 	}
 }
 
@@ -55,6 +55,8 @@ class ChromeDriver implements WebDriver, TakesScreenshot {
 	public void takePicture() {
 		System.out.println("In crome we can take picture");
 	}
+
+	
 }
 
 class FireFoxDriver implements WebDriver {

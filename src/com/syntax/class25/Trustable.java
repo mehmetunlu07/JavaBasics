@@ -7,7 +7,7 @@ interface CreditUnion{
 
 class Finance{
 	 public void financing() {
-		 System.out.println("Dealing with financing");
+		 System.out.println("Class finance dealing with financing");
 	 }
 }
 
@@ -37,7 +37,7 @@ class BOA extends Finance implements Bank, CreditUnion  {
 
 	@Override
 	public void withdraw() {
-		System.out.println("You can withdraw you money at BOA");
+		System.out.println("You can withdraw money at BOA");
 	}
 
 	@Override
