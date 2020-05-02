@@ -22,8 +22,9 @@ public class InsuranceTest {
 		System.out.println("------Iterator----------");
 		Iterator<Insurance> itr=ins.iterator();
 		while(itr.hasNext()) {
-			itr.next().getQuote();
-			//itr.next().cancelInsurance();  // object sayisi 3 oldugu icin exception verir
+			Insurance i=itr.next();
+			i.getQuote();
+			i.cancelInsurance();  
 			System.out.println("**********************");
 		}
 		
