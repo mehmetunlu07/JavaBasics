@@ -6,7 +6,7 @@ public class FinallyBlock {
 
 	public static void main(String[] args) {
 
-		String file = System.getProperty("user.dir") + "/configs/configuration.properties";
+		String file = System.getProperty("user.dir") + "/configs/Examples.propertie";
 
 		try {
 

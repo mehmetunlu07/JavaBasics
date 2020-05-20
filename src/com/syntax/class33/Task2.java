@@ -15,6 +15,7 @@ public class Task2 {
 		int b = 0;
 		int[] array = { 12, 1, 13 };
 		String filePath = "";
+		
 		List<Exception> list = new ArrayList<>();
 
 		try {
@@ -25,7 +26,6 @@ public class Task2 {
 		}
 
 		try {
-
 			System.out.println(array[3]);
 
 		} catch (Exception e) {
@@ -35,11 +35,11 @@ public class Task2 {
 		try {
 
 			FileInputStream fis = new FileInputStream(filePath);
-			//fis.close();
+			fis.close();
 		} catch (Exception e) {
 			list.add(e);
 		}
-
+		
 		return list;
 
 	}
@@ -47,10 +47,12 @@ public class Task2 {
 	public static void main(String[] args) {
 		
 		List<Exception> list=catchExceptions();
-		//System.out.println(list);
+		
+		System.out.println(list);
+		System.out.println("------------- ------------- ----------------");
 		
 		for(Exception e:list) {
-			//System.out.println(e.getMessage());
+			
 			e.printStackTrace();
 		}
 		

@@ -9,7 +9,7 @@ public class MultipleCatch {
 
 	public static void main(String[] args) {
 		
-		String file=System.getProperty("user.dir")+"/configs/configuration.propertie";
+		String file=System.getProperty("user.dir")+"/configs/examples.properties";
 		
 		try {
 			
@@ -20,7 +20,7 @@ public class MultipleCatch {
 			
 		} catch (IOException e) {
 			e.printStackTrace();
-		} catch (Exception e) {
+		} catch (NullPointerException e) {
 			e.printStackTrace();
 		} 
 

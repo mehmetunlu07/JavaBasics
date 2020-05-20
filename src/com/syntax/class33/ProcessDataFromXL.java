@@ -15,11 +15,11 @@ public class ProcessDataFromXL {
 
 	public static void main(String[] args) throws IOException {
 
-		String file = System.getProperty("user.dir") + "/testdata/Test.xlsx";
+		String file = System.getProperty("user.dir") + "/testdata/test.xlsx";
 		FileInputStream fis = new FileInputStream(file);
 
 		Workbook book = new XSSFWorkbook(fis);
-		Sheet sheet = book.getSheet("TestData");//null
+		Sheet sheet = book.getSheet("Sheet1");//null
 
 		int rows = sheet.getPhysicalNumberOfRows();
 		int cols = sheet.getRow(0).getLastCellNum();

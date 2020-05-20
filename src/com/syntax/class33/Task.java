@@ -30,7 +30,7 @@ public class Task {
 
 		// 2 object of exception type
 		try {
-			Object ob = new Double(50);
+			Object ob = new Double(50.0);
 			Integer i = (Integer) ob;
 		} catch (ClassCastException e) {
 			exceptionList.add(e);
